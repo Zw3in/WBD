@@ -1,11 +1,41 @@
-img.Dusclops {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
 h1.Dusclops {
-  color: black;
   font-size: 20px;
   font: bold;
+}
+
+a.Dusclops {
+  display: block;
+  margin-left: 5%;
+  text-decoration: none;
+}
+
+h1.Dusclops:hover{
+  color: red;
+}
+
+h1.Dusclops:active{
+  color: cyan;
+}
+
+h1.Dusclops:link{
+  color: black;
+}
+
+#button{
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: violet;
+  color: black;
+  font-size: 20px;
   text-align: center;
+  padding-top: 25px;
+}
+
+#button:hover{
+  background-color: green;
+}
+
+#button:active{
+  background-color: red;
 }
